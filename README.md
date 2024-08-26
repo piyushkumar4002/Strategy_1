@@ -39,25 +39,32 @@ Compare with Index: The strategy's performance is compared with a buy-and-hold s
 
 Visualize Results: The script visualizes the cumulative returns of the strategy vs. the DJI index.
 
-Functions
-CAGR(DF): Calculates the Cumulative Annual Growth Rate (CAGR) of a trading strategy.
-volatility(DF): Calculates the annualized volatility of a trading strategy.
-sharpe(DF, rf): Calculates the Sharpe Ratio of a trading strategy (adjusted for risk-free rate rf).
-max_dd(DF): Calculates the maximum drawdown of a trading strategy.
-pflio(DF, m, x): Calculates the cumulative portfolio return with m stocks and x monthly removals of underperforming stocks.
-Example Output
+# Functions
+## CAGR(DF):
+Calculates the Cumulative Annual Growth Rate (CAGR) of a trading strategy.
+## volatility(DF): 
+Calculates the annualized volatility of a trading strategy.
+## sharpe(DF, rf): 
+Calculates the Sharpe Ratio of a trading strategy (adjusted for risk-free rate rf).
+## max_dd(DF): 
+Calculates the maximum drawdown of a trading strategy.
+## pflio(DF, m, x): 
+Calculates the cumulative portfolio return with m stocks and x monthly removals of underperforming stocks.
+# Example Output
 The script outputs the following performance metrics:
 
-CAGR: The annual growth rate of the strategy.
-Sharpe Ratio: The risk-adjusted return of the strategy.
-Maximum Drawdown: The maximum observed loss from a peak to a trough.
+# CAGR: 
+The annual growth rate of the strategy.
+# Sharpe Ratio: 
+The risk-adjusted return of the strategy.
+# Maximum Drawdown: 
+The maximum observed loss from a peak to a trough.
+
 A comparison plot of cumulative returns between the strategy and the DJI index is also generated.
 
 How to Run
 Execute the script by running:
 
-bash
-Copy code
 python backtest.py
 The script will print the performance metrics and display a plot comparing the strategy's return with the DJI index return.
 
